@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb 2025 - Find your next adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fab fa-airbnb"></i>
+                <span>airbnb</span>
+            </div>
+            
+            <div class="nav-search">
+                <div class="search-container">
+                    <div class="search-item">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Where to?">
+                    </div>
+                    <div class="search-item">
+                        <i class="fas fa-calendar"></i>
+                        <input type="text" placeholder="Check in">
+                    </div>
+                    <div class="search-item">
+                        <i class="fas fa-calendar"></i>
+                        <input type="text" placeholder="Check out">
+                    </div>
+                    <div class="search-item">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Who?">
+                    </div>
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="host-btn">Become a Host</button>
+                <div class="user-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Not sure where to go? Perfect.</h1>
+            <p>Discover amazing places and experiences around the world</p>
+            <button class="cta-btn">I'm flexible</button>
+        </div>
+        <div class="hero-background">
+            <div class="floating-card">
+                <div class="card-content">
+                    <h3>Try hosting</h3>
+                    <p>Earn extra income and unlock new opportunities by sharing your space.</p>
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>Explore by category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Outdoor adventures</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Unique stays</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Entire homes</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3>Pet-friendly</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="destinations">
+        <div class="container">
+            <h2>Popular destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1502602898536-47ad22581b52?w=400&h=300&fit=crop" alt="Paris">
+                        <div class="destination-overlay">
+                            <button class="heart-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Paris, France</h3>
+                        <p>1,234 km away</p>
+                        <p class="price">$89 night</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1538970272646-f61fabb3a8a2?w=400&h=300&fit=crop" alt="Tokyo">
+                        <div class="destination-overlay">
+                            <button class="heart-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Tokyo, Japan</h3>
+                        <p>2,567 km away</p>
+                        <p class="price">$156 night</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=400&h=300&fit=crop" alt="New York">
+                        <div class="destination-overlay">
+                            <button class="heart-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>New York, USA</h3>
+                        <p>890 km away</p>
+                        <p class="price">$234 night</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400&h=300&fit=crop" alt="Venice">
+                        <div class="destination-overlay">
+                            <button class="heart-btn">
+                                <i class="far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="destination-info">
+                        <h3>Venice, Italy</h3>
+                        <p>1,456 km away</p>
+                        <p class="price">$178 night</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="experiences">
+        <div class="container">
+            <h2>Experiences</h2>
+            <p class="section-subtitle">Find unforgettable activities near you</p>
+            <div class="experiences-grid">
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Cooking Class">
+                    </div>
+                    <div class="experience-info">
+                        <h3>Local cooking class</h3>
+                        <p>Learn to cook authentic local dishes</p>
+                        <p class="price">$45 per person</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="City Tour">
+                    </div>
+                    <div class="experience-info">
+                        <h3>City walking tour</h3>
+                        <p>Discover hidden gems with locals</p>
+                        <p class="price">$32 per person</p>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Photography">
+                    </div>
+                    <div class="experience-info">
+                        <h3>Photography workshop</h3>
+                        <p>Capture stunning moments</p>
+                        <p class="price">$67 per person</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Host Section -->
+    <section class="host-section">
+        <div class="container">
+            <div class="host-content">
+                <div class="host-text">
+                    <h2>Host your home</h2>
+                    <p>Join millions of hosts on Airbnb who are sharing their spaces and earning extra income.</p>
+                    <button class="host-cta-btn">Learn how to host</button>
+                </div>
+                <div class="host-image">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=500&h=400&fit=crop" alt="Hosting">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Safety information</a></li>
+                        <li><a href="#">Cancellation options</a></li>
+                        <li><a href="#">Our COVID-19 Response</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Airbnb.org: disaster relief housing</a></li>
+                        <li><a href="#">Support Afghan refugees</a></li>
+                        <li><a href="#">Combating discrimination</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Hosting</h4>
+                    <ul>
+                        <li><a href="#">Try hosting</a></li>
+                        <li><a href="#">AirCover for Hosts</a></li>
+                        <li><a href="#">Explore hosting resources</a></li>
+                        <li><a href="#">Visit our community forum</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Learn about new features</a></li>
+                        <li><a href="#">Letter from our founders</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-left">
+                    <p>&copy; 2025 Airbnb, Inc. All rights reserved</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
